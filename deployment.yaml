@@ -14,10 +14,7 @@ spec:
     spec:
       containers:
         - name: leashapp
-          image: abarnash/leashapp:v0.1
-          imagePullPolicy: Always
-          ports:
-            - containerPort: 80
+          image: abarnash/leashapp
       restartPolicy: Always
 ---
 kind: Service
